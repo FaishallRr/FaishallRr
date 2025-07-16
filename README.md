@@ -48,9 +48,11 @@ I am a developer from the Informatics Engineering program at Dian Nuswantoro Uni
 
 ## 📈 Contribution Graph
 
-<div align="center" style="filter: invert(1);">
-  <img src="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/pacman-contribution-graph.svg">
+</picture>
 
 ---
 
