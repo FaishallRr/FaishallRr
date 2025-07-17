@@ -16,8 +16,8 @@ I am a developer from the Informatics Engineering program at Dian Nuswantoro Uni
 
 ## 🎉 Fun Facts
 
-<p align="center" style="background-color:black;">
-<img src="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/snake.svg" alt="Snake animation" />
+<p align="center" style="background-color:black; border-radius: 10px; padding: 10px;">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Versi gelap dan full keren" style="filter: brightness(0.8) drop-shadow(0 0 90px #00ff00);" />
 </p>
 
 ## 🧠 Skills & 🎧 Spotify Listening
