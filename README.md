@@ -1,4 +1,4 @@
-![Profile Image](img/benner.png)
+![Profile Image](benner.png)
 
 <h1 align="center">🎓 Faishal Rasyid Rusianto</h1>
 
