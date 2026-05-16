@@ -1,42 +1,51 @@
-name: Generate Snake Animation
+name: Generate Snake and Pacman Animation
 
 on:
   schedule:
-    # Berjalan otomatis setiap 24 jam sekali
-    - cron: "0 0 * * *" 
-  
-  # Mengizinkan Anda menjalankan workflow ini secara manual kapan saja
+    # Berjalan otomatis setiap 12 jam sekali
+    - cron: "0 */12 * * *"
+
   workflow_dispatch:
-  
-  # Berjalan otomatis setiap kali Anda memperbarui README di branch main
+
   push:
     branches:
-    - main
-    
+      - main
+
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # --- PROSES CHECKOUT REPOSITORI ---
+      # 1. Ambil kode dari repositori utama
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # --- PROSES GENERATE KONTRIBUSI TEMA MERAH ---
+      # 2. Buat folder penampung 'dist' secara manual agar tidak bentrok
+      - name: Create Dist Directory
+        run: mkdir -p dist
+
+      # 3. Jalankan Generator Pacman Asli (Hasilnya dipaksa masuk ke folder dist)
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: FaishallRr
+        env:
+          # Memindahkan file output pacman ke dalam folder dist
+          OUTPUT_DIR: dist
+
+      # 4. Jalankan Generator Snake Merah (Hasilnya otomatis masuk ke folder dist)
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: FaishallRr
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff0000
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark&color_snake=#ff0000
-            dist/pacman-contribution-graph.svg?palette=github-light&color_snake=#ff0000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
 
-      # --- PUSH SEMUA HASIL KE BRANCH OUTPUT ---
-      - name: Push to Output Branch
+      # 5. Push SEMUA file yang ada di folder dist secara bersamaan ke branch output
+      - name: Push Both Animations to Output Branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
