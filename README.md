@@ -19,7 +19,7 @@ My daily life is a cool mix of coding and campus activism. When I’m not explor
 ## 🎉 Fun Facts
 
 <p align="center" style="background-color:black; border-radius: 10px; padding: 10px;">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Versi gelap dan full keren" style="filter: brightness(2.5) drop-shadow(0 0 60px #00ff00);" />
+  <img src="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/github-contribution-grid-snake-dark.svg" alt="GitHub Kontribusi Ular" style="filter: brightness(2.5) drop-shadow(0 0 60px #00ff00);" />
 </p>
 
 ## 🧠 Skills & 🎧 Spotify Listening
