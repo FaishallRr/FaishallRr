@@ -10,7 +10,9 @@
 
 ## 👋 About Me
 
-I am a developer from the Informatics Engineering program at Dian Nuswantoro University. Experienced in research-based technology, particularly in Android and Web development. I also have skills in data processing using Microsoft Office tools. Currently, I am looking for new opportunities and experiences to continue growing and contributing to the technology world through innovation.
+Hi there! I’m Faishal, an Informatics Engineering student at Universitas Dian Nuswantoro (UDINUS) with 2 years of deep diving into the world of tech. 
+
+My daily life is a cool mix of coding and campus activism. When I’m not exploring new technologies as a Tech Enthusiast, you’ll probably find me busy with HMTI (the Informatics Engineering Student Association), where I sharpen my leadership and teamwork skills.
 
 ---
 
@@ -24,7 +26,7 @@ I am a developer from the Informatics Engineering program at Dian Nuswantoro Uni
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
   <div class="flex flex-col items-center">
-    <img src="https://skillicons.dev/icons?i=html,css,javascript,react,php,mysql,figma&theme=dark" alt="Skills" class="max-w-full rounded-lg shadow-lg" />
+    <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,mysql,docker,figma&theme=dark" alt="Skills" class="max-w-full rounded-lg shadow-lg" />
   </div>
   <br >
   <div class="flex flex-col items-center">
@@ -42,7 +44,7 @@ I am a developer from the Informatics Engineering program at Dian Nuswantoro Uni
 - 🔍 API Testing: **Postman**
 - ☁️ Databases: **MySQL**
 - 🔄 Version Control & Continuous Integration: **Git & GitHub**, **CI/CD with GitHub Actions**
-- 🎨 Design Tools: **Figma**, **Canva**
+- 🎨 Design Tools: **Figma**
 
 ---
 
@@ -58,14 +60,14 @@ I am a developer from the Informatics Engineering program at Dian Nuswantoro Uni
 
 ## 📊 GitHub Activity Graph
 
-![Aditya's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=FaishallRr&theme=github-dark)
+![Faishal's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=FaishallRr&theme=github-dark)
 
 ---
 
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaishallRr&layout=compact&theme=dark&hide_border=true" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=FaishallRr&layout=compact&theme=dark&hide_border=true" />
 </div>
 
 ---
@@ -92,6 +94,9 @@ I am a developer from the Informatics Engineering program at Dian Nuswantoro Uni
   </a>
   <a href="https://www.youtube.com/@faishalrr">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://www.tiktok.com/@faishallrr_?is_from_webapp=1&sender_device=pc">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
   </a>
 </div>
 
