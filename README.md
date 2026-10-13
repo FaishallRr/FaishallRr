@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=FaishallRr&color=2a2a2c&style=flat-square&label=VIEWS" alt="Profile views"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=FaishallRr&label=VIEWS&color=2a2a2c&style=flat-square" alt="Profile views"/>
   <img src="https://img.shields.io/badge/I_use-Arch_btw-2a2a2c?style=flat-square&logo=archlinux&logoColor=white&labelColor=111113" alt="Arch btw"/>
   <img src="https://img.shields.io/badge/UDINUS-Informatics-2a2a2c?style=flat-square&labelColor=111113" alt="UDINUS"/>
 </p>
