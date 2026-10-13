@@ -12,13 +12,12 @@ jobs:
   update-liked-cards:
     runs-on: ubuntu-latest
     steps:
-      # Playlist "Liked videos" (LL + channel ID) — harus public.
-      # Fallback jika liked private: ganti playlist_id dengan channel_id di bawah.
+      # Playlist ":)" berisi video yang disukai — harus public.
+      # Fallback jika playlist private: ganti playlist_id dengan channel_id di bawah.
       - name: Update liked video cards in README
         uses: DenverCoder1/github-readme-youtube-cards@main
         with:
-          playlist_id: "LLPkKep675jouptQOtlE567w"
-          # channel_id: "UCPkKep675jouptQOtlE567w"
+          playlist_id: "PLVzw_t7ydNAQ"
           lang: en
           max_videos: 3
           card_width: 250
