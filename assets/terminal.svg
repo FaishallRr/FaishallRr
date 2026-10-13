@@ -1,47 +1,53 @@
-<svg width="640" height="235" viewBox="0 0 640 235" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated terminal">
-  <rect x="4" y="4" width="632" height="227" rx="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
-  <rect x="4" y="4" width="632" height="34" rx="10" fill="#151515"/>
-  <rect x="4" y="28" width="632" height="10" fill="#151515"/>
-  <circle cx="26" cy="21" r="6" fill="#ffffff"/>
-  <circle cx="48" cy="21" r="6" fill="#8a8a8a"/>
-  <circle cx="70" cy="21" r="6" fill="#3d3d3d"/>
-  <text x="320" y="26" text-anchor="middle" font-family="Courier New, monospace" font-size="13" fill="#777777">faishal@matrix: ~/profile</text>
-
-  <rect x="4" y="40" width="632" height="2" fill="#ffffff" opacity="0.28">
-    <animate attributeName="y" values="44;224;44" dur="7s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="24" y="72" font-family="Courier New, monospace" font-size="16" fill="#ffffff" opacity="0">
-    $ whoami
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.06;0.08;0.92;1" dur="14s" repeatCount="indefinite"/>
-  </text>
-
-  <text x="24" y="98" font-family="Courier New, monospace" font-size="16" fill="#bbbbbb" opacity="0">
-    faishal_rasyid — informatics @ UDINUS
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.18;0.92;1" dur="14s" repeatCount="indefinite"/>
-  </text>
-
-  <text x="24" y="130" font-family="Courier New, monospace" font-size="16" fill="#ffffff" opacity="0">
-    $ cat ~/mission.txt
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.32;0.92;1" dur="14s" repeatCount="indefinite"/>
-  </text>
-
-  <text x="24" y="156" font-family="Courier New, monospace" font-size="16" fill="#999999" opacity="0">
-    &gt; build web &amp; android things that matter
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.44;0.92;1" dur="14s" repeatCount="indefinite"/>
-  </text>
-
-  <text x="24" y="188" font-family="Courier New, monospace" font-size="16" fill="#ffffff" opacity="0">
-    $ sudo make me a sandwich
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.58;0.60;0.92;1" dur="14s" repeatCount="indefinite"/>
-  </text>
-
-  <text x="24" y="214" font-family="Courier New, monospace" font-size="16" fill="#bbbbbb" opacity="0">
-    &gt; [sudo] permission granted
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.70;0.72;0.92;1" dur="14s" repeatCount="indefinite"/>
-  </text>
-
-  <rect x="300" y="200" width="10" height="18" fill="#ffffff" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;1;0;1;0" keyTimes="0;0.72;0.74;0.8;0.85;0.88;0.92;0.95;1" dur="14s" repeatCount="indefinite"/>
-  </rect>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 290" width="760" height="290" role="img" aria-label="Terminal where sudo removes a cute bug">
+<defs>
+  <linearGradient id="gMV" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#0e1530"/></linearGradient>
+  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#1b2848"/></pattern>
+</defs>
+<rect x="1" y="1" width="758" height="288" rx="14" fill="url(#gBg)" stroke="#1f2b4a" stroke-width="1.5"/>
+<path d="M1 15 a14 14 0 0 1 14 -14 h730 a14 14 0 0 1 14 14 v26 h-758 z" fill="#111a33"/>
+<line x1="1" y1="41" x2="759" y2="41" stroke="#1f2b4a"/>
+<circle cx="24" cy="21" r="5.5" fill="#5eead4"/><circle cx="44" cy="21" r="5.5" fill="#a78bfa"/><circle cx="64" cy="21" r="5.5" fill="#4b5a7a"/>
+<text x="380.0" y="25.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8b9ab8">faishal@arch: ~/project</text>
+<circle cx="678" cy="21" r="3.5" fill="#5eead4"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="688" y="25" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.5" fill="#5eead4">ONLINE</text>
+<line x1="26" y1="268" x2="734" y2="268" stroke="#1f2b4a" stroke-dasharray="4 6"/>
+<g><clipPath id="tt0"><rect x="24" y="63.5" width="0" height="27.2"><animate attributeName="width" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.04923;0.05231;0.05538;0.05846;0.06154;0.06462;0.06769;0.07077;0.07385;0.07692;0.08000;0.08308;0.08615;0.08923;0.09231;0.09538;0.09846;0.10154;0.10462" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87.0;95.7;104.4;113.1;121.8;130.5;139.2;147.9;156.6;171.3"/></rect></clipPath><g clip-path="url(#tt0)"><text x="26" y="80" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" xml:space="preserve" style="white-space:pre" textLength="165.3" lengthAdjust="spacing" ><tspan fill="#5eead4">$ </tspan><tspan fill="#a78bfa">sudo</tspan><tspan fill="#e2e8f0"> rm -rf bugs/</tspan></text></g><clipPath id="tt1"><rect x="24" y="87.5" width="0" height="27.2"><animate attributeName="width" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.13000;0.13231;0.13462;0.13692;0.13923;0.14154;0.14385;0.14615;0.14846;0.15077;0.15308;0.15538;0.15769;0.16000;0.16231;0.16462;0.16692;0.16923;0.17154;0.17385;0.17615;0.17846;0.18077;0.18308;0.18538;0.18769;0.19000;0.19231;0.19462;0.19692;0.19923;0.20154;0.20385;0.20615;0.20846;0.21077;0.21308" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87.0;95.7;104.4;113.1;121.8;130.5;139.2;147.9;156.6;165.3;174.0;182.7;191.4;200.1;208.8;217.5;226.2;234.9;243.6;252.3;261.0;269.7;278.4;287.1;295.8;304.5;313.2;327.9"/></rect></clipPath><g clip-path="url(#tt1)"><text x="26" y="104" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" xml:space="preserve" style="white-space:pre" textLength="321.9" lengthAdjust="spacing" ><tspan fill="#8b9ab8">[sudo] password for faishal: </tspan><tspan fill="#4b5a7a">••••••••</tspan></text></g><clipPath id="tt2"><rect x="24" y="111.5" width="0" height="27.2"><animate attributeName="width" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.23769;0.23923;0.24077;0.24231;0.24385;0.24538;0.24692;0.24846;0.25000;0.25154;0.25308;0.25462;0.25615;0.25769;0.25923;0.26077;0.26231;0.26385;0.26538;0.26692;0.26846;0.27000;0.27154;0.27308;0.27462;0.27615;0.27769;0.27923;0.28077;0.28231;0.28385;0.28538;0.28692;0.28846;0.29000;0.29154;0.29308;0.29462;0.29615;0.29769" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87.0;95.7;104.4;113.1;121.8;130.5;139.2;147.9;156.6;165.3;174.0;182.7;191.4;200.1;208.8;217.5;226.2;234.9;243.6;252.3;261.0;269.7;278.4;287.1;295.8;304.5;313.2;321.9;330.6;339.3;354.0"/></rect></clipPath><g clip-path="url(#tt2)"><text x="26" y="128" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" xml:space="preserve" style="white-space:pre" textLength="348.0" lengthAdjust="spacing" ><tspan fill="#8b9ab8">removing bug_001.js … bug_042.css … </tspan><tspan fill="#5eead4">done</tspan></text></g><clipPath id="tt3"><rect x="24" y="143.5" width="0" height="27.2"><animate attributeName="width" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.47731;0.48000;0.48269;0.48538;0.48808;0.49077;0.49346;0.49615;0.49885;0.50154;0.50423;0.50692;0.50962;0.51231;0.51500;0.51769;0.52038;0.52308;0.52577;0.52846;0.53115;0.53385;0.53654;0.53923;0.54192;0.54462;0.54731;0.55000;0.55269;0.55538;0.55808;0.56077" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87.0;95.7;104.4;113.1;121.8;130.5;139.2;147.9;156.6;165.3;174.0;182.7;191.4;200.1;208.8;217.5;226.2;234.9;243.6;252.3;261.0;269.7;284.4"/></rect></clipPath><g clip-path="url(#tt3)"><text x="26" y="160" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" xml:space="preserve" style="white-space:pre" textLength="278.4" lengthAdjust="spacing" ><tspan fill="#5eead4">$ </tspan><tspan fill="#a78bfa">git commit</tspan><tspan fill="#e2e8f0"> -m "fix: all of it"</tspan></text></g><clipPath id="tt4"><rect x="24" y="167.5" width="0" height="27.2"><animate attributeName="width" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.59462;0.59769;0.60077;0.60385;0.60692;0.61000;0.61308;0.61615;0.61923;0.62231;0.62538;0.62846;0.63154;0.63462;0.63769;0.64077;0.64385;0.64692;0.65000;0.65308;0.65615;0.65923;0.66231;0.66538" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87.0;95.7;104.4;113.1;121.8;130.5;139.2;147.9;156.6;165.3;174.0;182.7;191.4;200.1;214.8"/></rect></clipPath><g clip-path="url(#tt4)"><text x="26" y="184" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" xml:space="preserve" style="white-space:pre" textLength="208.8" lengthAdjust="spacing" ><tspan fill="#5eead4">✔ 0 bugs found </tspan><tspan fill="#4b5a7a">(for now)</tspan></text></g><rect x="26.0" y="67.7" width="7.4" height="16.0" rx="1" fill="#5eead4"><animate attributeName="x" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.04615;0.04923;0.05231;0.05538;0.05846;0.06154;0.06462;0.06769;0.07077;0.07385;0.07692;0.08000;0.08308;0.08615;0.08923;0.09231;0.09538;0.09846;0.10154;0.10462;0.12769;0.13000;0.13231;0.13462;0.13692;0.13923;0.14154;0.14385;0.14615;0.14846;0.15077;0.15308;0.15538;0.15769;0.16000;0.16231;0.16462;0.16692;0.16923;0.17154;0.17385;0.17615;0.17846;0.18077;0.18308;0.18538;0.18769;0.19000;0.19231;0.19462;0.19692;0.19923;0.20154;0.20385;0.20615;0.20846;0.21077;0.21308;0.23615;0.23769;0.23923;0.24077;0.24231;0.24385;0.24538;0.24692;0.24846;0.25000;0.25154;0.25308;0.25462;0.25615;0.25769;0.25923;0.26077;0.26231;0.26385;0.26538;0.26692;0.26846;0.27000;0.27154;0.27308;0.27462;0.27615;0.27769;0.27923;0.28077;0.28231;0.28385;0.28538;0.28692;0.28846;0.29000;0.29154;0.29308;0.29462;0.29615;0.29769;0.47462;0.47731;0.48000;0.48269;0.48538;0.48808;0.49077;0.49346;0.49615;0.49885;0.50154;0.50423;0.50692;0.50962;0.51231;0.51500;0.51769;0.52038;0.52308;0.52577;0.52846;0.53115;0.53385;0.53654;0.53923;0.54192;0.54462;0.54731;0.55000;0.55269;0.55538;0.55808;0.56077;0.59154;0.59462;0.59769;0.60077;0.60385;0.60692;0.61000;0.61308;0.61615;0.61923;0.62231;0.62538;0.62846;0.63154;0.63462;0.63769;0.64077;0.64385;0.64692;0.65000;0.65308;0.65615;0.65923;0.66231;0.66538" values="26.0;26.0;34.7;43.4;52.1;60.8;69.5;78.2;86.9;95.6;104.3;113.0;121.7;130.4;139.1;147.8;156.5;165.2;173.9;182.6;191.3;26.0;34.7;43.4;52.1;60.8;69.5;78.2;86.9;95.6;104.3;113.0;121.7;130.4;139.1;147.8;156.5;165.2;173.9;182.6;191.3;200.0;208.7;217.4;226.1;234.8;243.5;252.2;260.9;269.6;278.3;287.0;295.7;304.4;313.1;321.8;330.5;339.2;347.9;26.0;34.7;43.4;52.1;60.8;69.5;78.2;86.9;95.6;104.3;113.0;121.7;130.4;139.1;147.8;156.5;165.2;173.9;182.6;191.3;200.0;208.7;217.4;226.1;234.8;243.5;252.2;260.9;269.6;278.3;287.0;295.7;304.4;313.1;321.8;330.5;339.2;347.9;356.6;365.3;374.0;26.0;34.7;43.4;52.1;60.8;69.5;78.2;86.9;95.6;104.3;113.0;121.7;130.4;139.1;147.8;156.5;165.2;173.9;182.6;191.3;200.0;208.7;217.4;226.1;234.8;243.5;252.2;260.9;269.6;278.3;287.0;295.7;304.4;26.0;34.7;43.4;52.1;60.8;69.5;78.2;86.9;95.6;104.3;113.0;121.7;130.4;139.1;147.8;156.5;165.2;173.9;182.6;191.3;200.0;208.7;217.4;226.1;234.8"/><animate attributeName="y" calcMode="discrete" dur="13s" repeatCount="indefinite" keyTimes="0.00000;0.04615;0.04923;0.05231;0.05538;0.05846;0.06154;0.06462;0.06769;0.07077;0.07385;0.07692;0.08000;0.08308;0.08615;0.08923;0.09231;0.09538;0.09846;0.10154;0.10462;0.12769;0.13000;0.13231;0.13462;0.13692;0.13923;0.14154;0.14385;0.14615;0.14846;0.15077;0.15308;0.15538;0.15769;0.16000;0.16231;0.16462;0.16692;0.16923;0.17154;0.17385;0.17615;0.17846;0.18077;0.18308;0.18538;0.18769;0.19000;0.19231;0.19462;0.19692;0.19923;0.20154;0.20385;0.20615;0.20846;0.21077;0.21308;0.23615;0.23769;0.23923;0.24077;0.24231;0.24385;0.24538;0.24692;0.24846;0.25000;0.25154;0.25308;0.25462;0.25615;0.25769;0.25923;0.26077;0.26231;0.26385;0.26538;0.26692;0.26846;0.27000;0.27154;0.27308;0.27462;0.27615;0.27769;0.27923;0.28077;0.28231;0.28385;0.28538;0.28692;0.28846;0.29000;0.29154;0.29308;0.29462;0.29615;0.29769;0.47462;0.47731;0.48000;0.48269;0.48538;0.48808;0.49077;0.49346;0.49615;0.49885;0.50154;0.50423;0.50692;0.50962;0.51231;0.51500;0.51769;0.52038;0.52308;0.52577;0.52846;0.53115;0.53385;0.53654;0.53923;0.54192;0.54462;0.54731;0.55000;0.55269;0.55538;0.55808;0.56077;0.59154;0.59462;0.59769;0.60077;0.60385;0.60692;0.61000;0.61308;0.61615;0.61923;0.62231;0.62538;0.62846;0.63154;0.63462;0.63769;0.64077;0.64385;0.64692;0.65000;0.65308;0.65615;0.65923;0.66231;0.66538" values="67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;67.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;91.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;115.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;147.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7;171.7"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5001;1" dur="1.05s" repeatCount="indefinite"/></rect><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.92;0.9750;0.9995;1" dur="13s" repeatCount="indefinite"/></g>
+<g>
+  <animateTransform attributeName="transform" type="translate" calcMode="linear"
+     values="-40 246;-40 246;520 246;520 246" keyTimes="0;0.1231;0.4000;1" dur="13s" repeatCount="indefinite"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="0.45s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="scale" calcMode="linear"
+         values="1;1;1.25;0;0" keyTimes="0;0.3992;0.4092;0.4385;1" dur="13s" repeatCount="indefinite"/>
+      <g stroke="#a78bfa" stroke-width="2" stroke-linecap="round">
+        <line x1="-7" y1="8" x2="-12" y2="15"/><line x1="0" y1="10" x2="0" y2="16"/><line x1="7" y1="8" x2="12" y2="15"/>
+        <line x1="-10" y1="-8" x2="-16" y2="-17"/><line x1="10" y1="-8" x2="16" y2="-17"/>
+      </g>
+      <circle cx="-16" cy="-18" r="2.5" fill="#5eead4"/><circle cx="16" cy="-18" r="2.5" fill="#5eead4"/>
+      <ellipse cx="0" cy="0" rx="17" ry="14" fill="#a78bfa"/>
+      <ellipse cx="0" cy="-3" rx="11" ry="7" fill="#c4b5fd" opacity="0.55"/>
+      <circle cx="-6" cy="-3" r="4.4" fill="#e2e8f0"/><circle cx="6" cy="-3" r="4.4" fill="#e2e8f0"/>
+      <circle cx="-5" cy="-2.5" r="2" fill="#0b1020"><animate attributeName="r" values="2;2;2;0.4;2" keyTimes="0;0.6;0.66;0.7;1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="7" cy="-2.5" r="2" fill="#0b1020"><animate attributeName="r" values="2;2;2;0.4;2" keyTimes="0;0.6;0.66;0.7;1" dur="3s" repeatCount="indefinite"/></circle>
+      <path d="M-4 5 q4 4 8 0" fill="none" stroke="#0b1020" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </g>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1223;0.1231;0.4308;0.4315;1" dur="13s" repeatCount="indefinite"/>
+</g>
+<g transform="translate(520 246)" opacity="0">
+  <g stroke="#5eead4" stroke-width="2.5" stroke-linecap="round">
+    <line x1="8.0" y1="0.0" x2="18.0" y2="0.0"/><line x1="4.0" y1="6.9" x2="9.0" y2="15.6"/><line x1="-4.0" y1="6.9" x2="-9.0" y2="15.6"/><line x1="-8.0" y1="0.0" x2="-18.0" y2="0.0"/><line x1="-4.0" y1="-6.9" x2="-9.0" y2="-15.6"/><line x1="4.0" y1="-6.9" x2="9.0" y2="-15.6"/>
+  </g>
+  <animateTransform attributeName="transform" type="translate" values="520 246;520 246" dur="13s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.4038;0.4115;0.4577;1" dur="13s" repeatCount="indefinite"/>
+</g>
+<g transform="translate(520 246)">
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4231;0.4385;0.5462;0.5769;1" dur="13s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -34;0 -48" keyTimes="0;0.4231;0.5462;1" dur="13s" repeatCount="indefinite"/>
+    <path d="M0 6 C-14 -6 -8 -16 0 -9 C8 -16 14 -6 0 6 Z" fill="#5eead4"/>
+  </g>
+</g>
 </svg>
