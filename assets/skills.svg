@@ -1,60 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" height="372" role="img" aria-label="Skills as an ls listing with progress bars">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Skills shown as an nmap scan with open ports">
 <defs>
-  <linearGradient id="gMV" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-  <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#0e1530"/></linearGradient>
-  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#1b2848"/></pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.65"/></filter>
+  <filter id="noise" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7"/><feColorMatrix type="saturate" values="0"/></filter>
+  <filter id="fWhite"><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0"/></filter>
+  <linearGradient id="gBar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#303033"/><stop offset="1" stop-color="#252527"/></linearGradient>
+  <linearGradient id="gDesk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2b2f"/><stop offset="0.5" stop-color="#151517"/><stop offset="1" stop-color="#0a0a0b"/></linearGradient>
+  <radialGradient id="gGlow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff" stop-opacity="0.10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="gMetal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9a9aa0"/></linearGradient>
 </defs>
-<defs><linearGradient id="gSk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
-<rect x="1" y="1" width="758" height="370" rx="14" fill="url(#gBg)" stroke="#1f2b4a" stroke-width="1.5"/>
-<path d="M1 15 a14 14 0 0 1 14 -14 h730 a14 14 0 0 1 14 14 v26 h-758 z" fill="#111a33"/>
-<line x1="1" y1="41" x2="759" y2="41" stroke="#1f2b4a"/>
-<circle cx="24" cy="21" r="5.5" fill="#5eead4"/><circle cx="44" cy="21" r="5.5" fill="#a78bfa"/><circle cx="64" cy="21" r="5.5" fill="#4b5a7a"/>
-<text x="380.0" y="25.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8b9ab8">faishal@arch: ~/skills</text>
-<circle cx="678" cy="21" r="3.5" fill="#5eead4"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
-<text x="688" y="25" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.5" fill="#5eead4">ONLINE</text>
-<text x="24" y="66" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#5eead4">$ <tspan fill="#e2e8f0">ls -la ~/skills</tspan></text>
-<text x="26" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4b5a7a">-rwxr-xr-x</text>
-<text x="122" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e2e8f0">next.js</text>
-<rect x="210" y="90" width="400" height="14" rx="7" fill="#111a33" stroke="#1f2b4a"/>
-<g transform="translate(210,0)"><rect x="0" y="90" width="328" height="14" rx="7" fill="url(#gSk)">
-  <animateTransform attributeName="transform" type="scale" values="0 1;0 1;1 1;1 1;0 1" keyTimes="0;0.050;0.220;0.860;0.940;1" dur="10s" repeatCount="indefinite"/>
-</rect></g>
-<text x="626" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b9ab8">82%</text>
-<text x="26" y="143" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4b5a7a">-rwxr-xr-x</text>
-<text x="122" y="143" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e2e8f0">react</text>
-<rect x="210" y="130" width="400" height="14" rx="7" fill="#111a33" stroke="#1f2b4a"/>
-<g transform="translate(210,0)"><rect x="0" y="130" width="304" height="14" rx="7" fill="url(#gSk)">
-  <animateTransform attributeName="transform" type="scale" values="0 1;0 1;1 1;1 1;0 1" keyTimes="0;0.075;0.245;0.860;0.940;1" dur="10s" repeatCount="indefinite"/>
-</rect></g>
-<text x="626" y="143" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b9ab8">76%</text>
-<text x="26" y="183" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4b5a7a">-rwxr-xr-x</text>
-<text x="122" y="183" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e2e8f0">node.js</text>
-<rect x="210" y="170" width="400" height="14" rx="7" fill="#111a33" stroke="#1f2b4a"/>
-<g transform="translate(210,0)"><rect x="0" y="170" width="280" height="14" rx="7" fill="url(#gSk)">
-  <animateTransform attributeName="transform" type="scale" values="0 1;0 1;1 1;1 1;0 1" keyTimes="0;0.100;0.270;0.860;0.940;1" dur="10s" repeatCount="indefinite"/>
-</rect></g>
-<text x="626" y="183" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b9ab8">70%</text>
-<text x="26" y="223" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4b5a7a">-rwxr-xr-x</text>
-<text x="122" y="223" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e2e8f0">mysql</text>
-<rect x="210" y="210" width="400" height="14" rx="7" fill="#111a33" stroke="#1f2b4a"/>
-<g transform="translate(210,0)"><rect x="0" y="210" width="248" height="14" rx="7" fill="url(#gSk)">
-  <animateTransform attributeName="transform" type="scale" values="0 1;0 1;1 1;1 1;0 1" keyTimes="0;0.125;0.295;0.860;0.940;1" dur="10s" repeatCount="indefinite"/>
-</rect></g>
-<text x="626" y="223" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b9ab8">62%</text>
-<text x="26" y="263" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4b5a7a">-rwxr-xr-x</text>
-<text x="122" y="263" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e2e8f0">docker</text>
-<rect x="210" y="250" width="400" height="14" rx="7" fill="#111a33" stroke="#1f2b4a"/>
-<g transform="translate(210,0)"><rect x="0" y="250" width="220" height="14" rx="7" fill="url(#gSk)">
-  <animateTransform attributeName="transform" type="scale" values="0 1;0 1;1 1;1 1;0 1" keyTimes="0;0.150;0.320;0.860;0.940;1" dur="10s" repeatCount="indefinite"/>
-</rect></g>
-<text x="626" y="263" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b9ab8">55%</text>
-<text x="26" y="303" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4b5a7a">-rwxr-xr-x</text>
-<text x="122" y="303" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e2e8f0">android</text>
-<rect x="210" y="290" width="400" height="14" rx="7" fill="#111a33" stroke="#1f2b4a"/>
-<g transform="translate(210,0)"><rect x="0" y="290" width="200" height="14" rx="7" fill="url(#gSk)">
-  <animateTransform attributeName="transform" type="scale" values="0 1;0 1;1 1;1 1;0 1" keyTimes="0;0.175;0.345;0.860;0.940;1" dur="10s" repeatCount="indefinite"/>
-</rect></g>
-<text x="626" y="303" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b9ab8">50%</text>
-
-<text x="26" y="354" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#4b5a7a">total 6 · avg 66% · <tspan fill="#a78bfa">chmod +x ~/dreams</tspan></text>
+<defs><linearGradient id="gMetalH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#8e8e93"/></linearGradient></defs>
+<clipPath id="cardc"><rect width="800" height="440" rx="18"/></clipPath>
+<g clip-path="url(#cardc)"><rect width="800" height="440" fill="url(#gDesk)"/>
+<ellipse cx="144" cy="88" rx="280" ry="198" fill="url(#gGlow)"/>
+<ellipse cx="704" cy="374" rx="320" ry="220" fill="url(#gGlow)" opacity="0.7"/>
+<rect width="800" height="440" filter="url(#noise)" opacity="0.055"/><g transform="translate(18 14)">
+<rect width="764" height="400" rx="11" fill="#0b0b0c" stroke="#3a3a3c" stroke-width="1" filter="url(#shadow)"/>
+<clipPath id="c_sk"><rect width="764" height="400" rx="11"/></clipPath>
+<g clip-path="url(#c_sk)">
+  <rect width="764" height="32" fill="url(#gBar)"/>
+  <line x1="0" y1="32" x2="764" y2="32" stroke="#000" stroke-opacity="0.55"/>
+  <line x1="0" y1="33" x2="764" y2="33" stroke="#fff" stroke-opacity="0.04"/>
+  <circle cx="19" cy="16.0" r="6" fill="#ff5f57" stroke="#000" stroke-opacity="0.25"/>
+  <circle cx="39" cy="16.0" r="6" fill="#febc2e" stroke="#000" stroke-opacity="0.25"/>
+  <circle cx="59" cy="16.0" r="6" fill="#28c840" stroke="#000" stroke-opacity="0.25"/>
+  <text x="382.0" y="20.2" text-anchor="middle" font-family="-apple-system,'SF Pro Text','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#aeaeb2">faishal — nmap — 100×30</text>
+  <rect y="32" width="764" height="368" fill="#0b0b0c"/><g><clipPath id="sk0"><rect x="22" y="48.0" width="0" height="26.4"><animate attributeName="width" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0.00000;0.03071;0.03286;0.03500;0.03714;0.03929;0.04143;0.04357;0.04571;0.04786;0.05000;0.05214;0.05429;0.05643;0.05857;0.06071;0.06286;0.06500;0.06714;0.06929;0.07143;0.07357;0.07571;0.07786;0.08000;0.08214;0.08429;0.08643;0.08857;0.09071;0.09286;0.09500;0.09714;0.09929;0.10143;0.10357;0.10571;0.10786;0.11000;0.11214;0.11429;0.11643;0.11857;0.12071;0.12286;0.12500;0.12714" values="0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4;100.8;109.2;117.6;126.0;134.4;142.8;151.2;159.6;168.0;176.4;184.8;193.2;201.6;210.0;218.4;226.8;235.2;243.6;252.0;260.4;268.8;277.2;285.6;294.0;302.4;310.8;319.2;327.6;336.0;344.4;352.8;361.2;369.6;378.0;392.4"/></rect></clipPath><g clip-path="url(#sk0)"><text x="24" y="64" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14" xml:space="preserve" style="white-space:pre" textLength="386.4" lengthAdjust="spacing" ><tspan fill="#f2f2f7">faishal@arch</tspan><tspan fill="#8e8e93"> ~ % </tspan><tspan fill="#61afef">nmap</tspan><tspan fill="#56b6c2"> -sV</tspan><tspan fill="#abb2bf"> --top-skills faishal</tspan></text></g><clipPath id="sk1"><rect x="22" y="78.0" width="0" height="23.2"><animate attributeName="width" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0.00000;0.10771;0.10829;0.10886;0.10943;0.11000;0.11057;0.11114;0.11171;0.11229;0.11286;0.11343;0.11400;0.11457;0.11514;0.11571;0.11629;0.11686;0.11743;0.11800;0.11857;0.11914;0.11971;0.12029;0.12086;0.12143;0.12200;0.12257;0.12314;0.12371;0.12429;0.12486;0.12543;0.12600;0.12657;0.12714;0.12771;0.12829;0.12886;0.12943;0.13000;0.13057;0.13114;0.13171;0.13229;0.13286;0.13343;0.13400;0.13457;0.13514;0.13571;0.13629;0.13686;0.13743;0.13800;0.13857;0.13914;0.13971;0.14029;0.14086;0.14143;0.14200" values="0;7.2;14.4;21.6;28.8;36.0;43.2;50.4;57.6;64.8;72.0;79.2;86.4;93.6;100.8;108.0;115.2;122.4;129.6;136.8;144.0;151.2;158.4;165.6;172.8;180.0;187.2;194.4;201.6;208.8;216.0;223.2;230.4;237.6;244.8;252.0;259.2;266.4;273.6;280.8;288.0;295.2;302.4;309.6;316.8;324.0;331.2;338.4;345.6;352.8;360.0;367.2;374.4;381.6;388.8;396.0;403.2;410.4;417.6;424.8;432.0;445.2"/></rect></clipPath><g clip-path="url(#sk1)"><text x="24" y="92" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" xml:space="preserve" style="white-space:pre" textLength="439.2" lengthAdjust="spacing" ><tspan fill="#5c6370">Starting Nmap 7.94 ( https://nmap.org ) · target: </tspan><tspan fill="#8e8e93">faishal.dev</tspan></text></g><clipPath id="sk2"><rect x="22" y="113.5" width="0" height="24.0"><animate attributeName="width" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0.00000;0.14371;0.14457;0.14543;0.14629;0.14714;0.14800;0.14886;0.14971;0.15057;0.15143;0.15229;0.15314;0.15400;0.15486;0.15571;0.15657;0.15743;0.15829;0.15914;0.16000;0.16086;0.16171;0.16257;0.16343;0.16429;0.16514;0.16600;0.16686;0.16771;0.16857;0.16943;0.17029;0.17114;0.17200;0.17286;0.17371;0.17457;0.17543;0.17629;0.17714;0.17800;0.17886;0.17971;0.18057;0.18143" values="0;7.5;15.0;22.5;30.0;37.5;45.0;52.5;60.0;67.5;75.0;82.5;90.0;97.5;105.0;112.5;120.0;127.5;135.0;142.5;150.0;157.5;165.0;172.5;180.0;187.5;195.0;202.5;210.0;217.5;225.0;232.5;240.0;247.5;255.0;262.5;270.0;277.5;285.0;292.5;300.0;307.5;315.0;322.5;330.0;343.5"/></rect></clipPath><g clip-path="url(#sk2)"><text x="24" y="128" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" xml:space="preserve" style="white-space:pre" textLength="337.5" lengthAdjust="spacing" ><tspan fill="#636366">PORT         STATE    SERVICE        EXPOSURE</tspan></text></g><clipPath id="sk3"><rect x="22" y="337.5" width="0" height="24.0"><animate attributeName="width" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0.00000;0.53679;0.53786;0.53893;0.54000;0.54107;0.54214;0.54321;0.54429;0.54536;0.54643;0.54750;0.54857;0.54964;0.55071;0.55179;0.55286;0.55393;0.55500;0.55607;0.55714;0.55821;0.55929;0.56036;0.56143;0.56250;0.56357;0.56464;0.56571;0.56679;0.56786;0.56893;0.57000;0.57107;0.57214;0.57321;0.57429;0.57536;0.57643;0.57750;0.57857;0.57964;0.58071;0.58179;0.58286;0.58393;0.58500;0.58607;0.58714;0.58821;0.58929;0.59036;0.59143;0.59250;0.59357;0.59464;0.59571" values="0;7.5;15.0;22.5;30.0;37.5;45.0;52.5;60.0;67.5;75.0;82.5;90.0;97.5;105.0;112.5;120.0;127.5;135.0;142.5;150.0;157.5;165.0;172.5;180.0;187.5;195.0;202.5;210.0;217.5;225.0;232.5;240.0;247.5;255.0;262.5;270.0;277.5;285.0;292.5;300.0;307.5;315.0;322.5;330.0;337.5;345.0;352.5;360.0;367.5;375.0;382.5;390.0;397.5;405.0;412.5;426.0"/></rect></clipPath><g clip-path="url(#sk3)"><text x="24" y="352" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" xml:space="preserve" style="white-space:pre" textLength="420.0" lengthAdjust="spacing" ><tspan fill="#5c6370">Nmap done: </tspan><tspan fill="#98c379">6 services open</tspan><tspan fill="#5c6370"> · avg 66% · </tspan><tspan fill="#c678dd">chmod +x ~/dreams</tspan></text></g><g opacity="0">
+  <animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.1786" values="0;1"/>
+  <text x="24" y="162" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#aeaeb2">3000/tcp</text>
+  <text x="124" y="162" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#636366">scan…<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.1786;0.2107" values="0;1;0"/></text>
+  <text x="124" y="162" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" font-weight="700" fill="#98c379" opacity="0">open<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2107" values="0;1"/></text>
+  <text x="190" y="162" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13.5" fill="#ffffff">next.js</text>
+  <rect x="300" y="151" width="330" height="12" rx="6" fill="#2a2a2c"/>
+  <rect x="300" y="151" width="0" height="12" rx="6" fill="url(#gMetalH)"><animate attributeName="width" values="0;0;270.6;270.6" keyTimes="0;0.2107;0.2929;1" dur="14s" repeatCount="indefinite"/></rect>
+  <text x="644" y="162" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8e8e93">82%</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2214" values="0;1"/>
+  <text x="24" y="192" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#aeaeb2">5173/tcp</text>
+  <text x="124" y="192" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#636366">scan…<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2214;0.2536" values="0;1;0"/></text>
+  <text x="124" y="192" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" font-weight="700" fill="#98c379" opacity="0">open<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2536" values="0;1"/></text>
+  <text x="190" y="192" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13.5" fill="#ffffff">react</text>
+  <rect x="300" y="181" width="330" height="12" rx="6" fill="#2a2a2c"/>
+  <rect x="300" y="181" width="0" height="12" rx="6" fill="url(#gMetalH)"><animate attributeName="width" values="0;0;250.8;250.8" keyTimes="0;0.2536;0.3357;1" dur="14s" repeatCount="indefinite"/></rect>
+  <text x="644" y="192" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8e8e93">76%</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2643" values="0;1"/>
+  <text x="24" y="222" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#aeaeb2">8080/tcp</text>
+  <text x="124" y="222" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#636366">scan…<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2643;0.2964" values="0;1;0"/></text>
+  <text x="124" y="222" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" font-weight="700" fill="#98c379" opacity="0">open<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.2964" values="0;1"/></text>
+  <text x="190" y="222" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13.5" fill="#ffffff">node.js</text>
+  <rect x="300" y="211" width="330" height="12" rx="6" fill="#2a2a2c"/>
+  <rect x="300" y="211" width="0" height="12" rx="6" fill="url(#gMetalH)"><animate attributeName="width" values="0;0;231.0;231.0" keyTimes="0;0.2964;0.3786;1" dur="14s" repeatCount="indefinite"/></rect>
+  <text x="644" y="222" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8e8e93">70%</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3071" values="0;1"/>
+  <text x="24" y="252" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#aeaeb2">3306/tcp</text>
+  <text x="124" y="252" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#636366">scan…<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3071;0.3393" values="0;1;0"/></text>
+  <text x="124" y="252" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" font-weight="700" fill="#98c379" opacity="0">open<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3393" values="0;1"/></text>
+  <text x="190" y="252" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13.5" fill="#ffffff">mysql</text>
+  <rect x="300" y="241" width="330" height="12" rx="6" fill="#2a2a2c"/>
+  <rect x="300" y="241" width="0" height="12" rx="6" fill="url(#gMetalH)"><animate attributeName="width" values="0;0;204.6;204.6" keyTimes="0;0.3393;0.4214;1" dur="14s" repeatCount="indefinite"/></rect>
+  <text x="644" y="252" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8e8e93">62%</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3500" values="0;1"/>
+  <text x="24" y="282" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#aeaeb2">2375/tcp</text>
+  <text x="124" y="282" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#636366">scan…<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3500;0.3821" values="0;1;0"/></text>
+  <text x="124" y="282" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" font-weight="700" fill="#98c379" opacity="0">open<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3821" values="0;1"/></text>
+  <text x="190" y="282" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13.5" fill="#ffffff">docker</text>
+  <rect x="300" y="271" width="330" height="12" rx="6" fill="#2a2a2c"/>
+  <rect x="300" y="271" width="0" height="12" rx="6" fill="url(#gMetalH)"><animate attributeName="width" values="0;0;181.5;181.5" keyTimes="0;0.3821;0.4643;1" dur="14s" repeatCount="indefinite"/></rect>
+  <text x="644" y="282" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8e8e93">55%</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3929" values="0;1"/>
+  <text x="24" y="312" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#aeaeb2">5555/tcp</text>
+  <text x="124" y="312" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#636366">scan…<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.3929;0.4250" values="0;1;0"/></text>
+  <text x="124" y="312" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" font-weight="700" fill="#98c379" opacity="0">open<animate attributeName="opacity" calcMode="discrete" dur="14s" repeatCount="indefinite" keyTimes="0;0.4250" values="0;1"/></text>
+  <text x="190" y="312" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13.5" fill="#ffffff">android</text>
+  <rect x="300" y="301" width="330" height="12" rx="6" fill="#2a2a2c"/>
+  <rect x="300" y="301" width="0" height="12" rx="6" fill="url(#gMetalH)"><animate attributeName="width" values="0;0;165.0;165.0" keyTimes="0;0.4250;0.5071;1" dur="14s" repeatCount="indefinite"/></rect>
+  <text x="644" y="312" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8e8e93">50%</text>
+</g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.93;0.9850;0.9995;1" dur="14s" repeatCount="indefinite"/></g>
+</g>
+<rect width="764" height="400" rx="11" fill="none" stroke="#fff" stroke-opacity="0.09"/>
+</g></g>
+<rect x="0.5" y="0.5" width="799" height="439" rx="18" fill="none" stroke="#fff" stroke-opacity="0.08"/>
 </svg>

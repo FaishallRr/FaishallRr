@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 100" width="88" height="100" role="img" aria-label="github">
+<defs>
+  <linearGradient id="dk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3a3d"/><stop offset="1" stop-color="#1b1b1d"/></linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfbfd"/><stop offset="1" stop-color="#c9c9ce"/></linearGradient>
+  <filter id="ts" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.55"/></filter>
+</defs>
+<path d="M0 20 H88 V94 H0 V20 Z" fill="url(#dk)" stroke="#fff" stroke-opacity="0.16"/>
+<path d="M0 20 H88 V94 H0 V20 Z" fill="none" stroke="#000" stroke-opacity="0.5" transform="translate(0 0.8)"/>
+<g>
+  <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" calcMode="linear" keyTimes="0.00000;0.56667;0.58667;0.60667;0.62667;0.65556;1.00000" values="0 0;0 0;0 -20;0 0;0 -9;0 0;0 0"/>
+  <rect x="16" y="26" width="56" height="56" rx="14" fill="url(#tile)" filter="url(#ts)"/>
+  <rect x="16.5" y="26.5" width="55" height="55" rx="13.5" fill="none" stroke="#fff" stroke-opacity="0.7"/>
+  <g transform="translate(44 54) scale(0.92)"><g transform="translate(-17 -17) scale(2.12)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" fill="#0b0b0c"/></g></g>
+</g>
+<circle cx="44" cy="88" r="2.2" fill="#d1d1d6"/>
+</svg>

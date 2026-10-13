@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 100" width="88" height="100" role="img" aria-label="linkedin">
+<defs>
+  <linearGradient id="dk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3a3d"/><stop offset="1" stop-color="#1b1b1d"/></linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfbfd"/><stop offset="1" stop-color="#c9c9ce"/></linearGradient>
+  <filter id="ts" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.55"/></filter>
+</defs>
+<path d="M0 20 H88 V94 H0 V20 Z" fill="url(#dk)" stroke="#fff" stroke-opacity="0.16"/>
+<path d="M0 20 H88 V94 H0 V20 Z" fill="none" stroke="#000" stroke-opacity="0.5" transform="translate(0 0.8)"/>
+<g>
+  <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" calcMode="linear" keyTimes="0.00000;0.16667;0.18667;0.20667;0.22667;0.25556;1.00000" values="0 0;0 0;0 -20;0 0;0 -9;0 0;0 0"/>
+  <rect x="16" y="26" width="56" height="56" rx="14" fill="url(#tile)" filter="url(#ts)"/>
+  <rect x="16.5" y="26.5" width="55" height="55" rx="13.5" fill="none" stroke="#fff" stroke-opacity="0.7"/>
+  <g transform="translate(44 54) scale(0.92)"><circle cx="-11" cy="-11" r="3.4" fill="#0b0b0c"/><rect x="-14" y="-4" width="6.4" height="19" fill="#0b0b0c"/><path d="M-3 -4 h6 v3 c3 -4.4 14 -4.6 14 3.6 V15 h-6.4 v-10 c0 -4.4 -7.2 -4 -7.2 0 V15 H-3 z" fill="#0b0b0c"/></g>
+</g>
+<circle cx="44" cy="88" r="2.2" fill="#d1d1d6"/>
+</svg>

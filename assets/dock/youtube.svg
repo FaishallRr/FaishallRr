@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 100" width="88" height="100" role="img" aria-label="youtube">
+<defs>
+  <linearGradient id="dk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3a3d"/><stop offset="1" stop-color="#1b1b1d"/></linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfbfd"/><stop offset="1" stop-color="#c9c9ce"/></linearGradient>
+  <filter id="ts" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.55"/></filter>
+</defs>
+<path d="M0 20 H88 V94 H0 V20 Z" fill="url(#dk)" stroke="#fff" stroke-opacity="0.16"/>
+<path d="M0 20 H88 V94 H0 V20 Z" fill="none" stroke="#000" stroke-opacity="0.5" transform="translate(0 0.8)"/>
+<g>
+  <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" calcMode="linear" keyTimes="0.00000;0.36667;0.38667;0.40667;0.42667;0.45556;1.00000" values="0 0;0 0;0 -20;0 0;0 -9;0 0;0 0"/>
+  <rect x="16" y="26" width="56" height="56" rx="14" fill="url(#tile)" filter="url(#ts)"/>
+  <rect x="16.5" y="26.5" width="55" height="55" rx="13.5" fill="none" stroke="#fff" stroke-opacity="0.7"/>
+  <g transform="translate(44 54) scale(0.92)"><rect x="-19" y="-13" width="38" height="26" rx="8" fill="#0b0b0c"/><path d="M-4.5 -6.5 L7.5 0 L-4.5 6.5 z" fill="#e8e8ed"/></g>
+</g>
+<circle cx="44" cy="88" r="2.2" fill="#d1d1d6"/>
+</svg>
