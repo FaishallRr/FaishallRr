@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 44" width="800" height="44" role="presentation">
+<defs>
+<linearGradient id="gBar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#303033"/><stop offset="1" stop-color="#252527"/></linearGradient>
+<filter id="sh" x="-10%" y="-60%" width="120%" height="260%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.55"/></filter>
+</defs>
+<rect x="0.5" y="0.5" width="799" height="43" rx="10" fill="url(#gBar)" stroke="#3a3a3c" filter="url(#sh)"/>
+<circle cx="22" cy="22" r="6" fill="#ff5f57"/><circle cx="42" cy="22" r="6" fill="#febc2e"/><circle cx="62" cy="22" r="6" fill="#28c840"/>
+<text x="400" y="27" text-anchor="middle" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8e8e93">faishal — zsh — <tspan fill="#e5e5ea">htop</tspan></text>
+</svg>

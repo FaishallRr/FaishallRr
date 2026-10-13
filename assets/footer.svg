@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="1000" height="30" role="presentation">
+<rect x="0" y="0" width="1000" height="30" rx="8" fill="#1c1c1e" stroke="#3a3a3c" stroke-opacity="0.6"/>
+<text x="16" y="20" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#98c379">❯</text>
+<text x="32" y="20" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#e5e5ea"><tspan font-weight="700">faishal@arch</tspan><tspan fill="#8e8e93"> ~ % </tspan><tspan fill="#e5e5ea" font-weight="700">FaishallRr © 2026</tspan></text>
+<text x="984" y="20" text-anchor="end" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#8e8e93">built with caffeine &amp; sudo</text>
+</svg>

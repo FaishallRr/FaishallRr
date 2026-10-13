@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 168" width="800" height="168" role="presentation">
+<defs>
+<linearGradient id="gBar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#303033"/><stop offset="1" stop-color="#252527"/></linearGradient>
+<filter id="sh" x="-15%" y="-30%" width="130%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity="0.6"/></filter>
+</defs>
+<rect x="8" y="8" width="784" height="152" rx="11" fill="#0b0b0c" stroke="#3a3a3c" filter="url(#sh)"/>
+<rect x="9" y="9" width="782" height="28" rx="10" fill="url(#gBar)"/>
+<rect x="9" y="27" width="782" height="10" fill="url(#gBar)"/>
+<circle cx="28" cy="23" r="5.5" fill="#ff5f57"/><circle cx="47" cy="23" r="5.5" fill="#febc2e"/><circle cx="66" cy="23" r="5.5" fill="#28c840"/>
+<text x="400" y="27.5" text-anchor="middle" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#8e8e93">faishal — zsh — quote</text>
+<text x="32" y="72" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14"><tspan fill="#fff" font-weight="700">faishal</tspan><tspan fill="#8e8e93">@</tspan><tspan fill="#fff" font-weight="700">arch</tspan><tspan fill="#8e8e93"> ~ % </tspan><tspan fill="#a78bfa">echo</tspan><tspan fill="#abb2bf"> "Talk is cheap. Show me the code."</tspan></text>
+<text x="32" y="102" textLength="260" lengthAdjust="spacing" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#98c379">Talk is cheap. Show me the code.</text>
+<text x="100" y="132" font-family="'SF Mono',Menlo,'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#6b6b70">— Linus Torvalds</text>
+<rect x="296" y="89" width="8" height="16" fill="#528bff"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5001;1" calcMode="discrete" dur="1.05s" repeatCount="indefinite"/></rect>
+</svg>

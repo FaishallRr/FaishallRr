@@ -20,13 +20,17 @@
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
-<h3 align="center"><code>$ neofetch</code></h3>
+<p align="center">
+  <img src="./assets/headers/neofetch.svg" alt="$ neofetch" width="800"/>
+</p>
 
 <p align="center">
   <img src="./assets/neofetch.svg" alt="neofetch style system info" width="100%"/>
 </p>
 
-<h3 align="center"><code>$ nmap -sV --top-skills faishal</code></h3>
+<p align="center">
+  <img src="./assets/headers/nmap.svg" alt="$ nmap -sV --top-skills faishal" width="800"/>
+</p>
 
 <p align="center">
   <img src="./assets/skills.svg" alt="Skills as an nmap scan" width="800"/>
@@ -43,25 +47,33 @@
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
-<h3 align="center"><code>$ sudo ./summon.sh</code></h3>
+<p align="center">
+  <img src="./assets/headers/summon.svg" alt="$ sudo ./summon.sh" width="800"/>
+</p>
 
 <p align="center">
   <img src="./assets/terminal.svg" alt="Creepy terminal: someone is watching, then a cute ghost says boo" width="800"/>
 </p>
 
-<h3 align="center"><code>$ git log --oneline</code></h3>
+<p align="center">
+  <img src="./assets/headers/gitlog.svg" alt="$ git log --oneline" width="800"/>
+</p>
 
 <p align="center">
   <img src="./assets/gitlog.svg" alt="git log with funny commit messages" width="800"/>
 </p>
 
-<h3 align="center"><code>$ ./contributions --snake</code></h3>
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FaishallRr/FaishallRr/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="95%"/>
+  <img src="./assets/headers/contrib.svg" alt="$ contrib --heatmap" width="800"/>
 </p>
 
-<h3 align="center"><code>$ htop</code></h3>
+<p align="center">
+  <img src="https://gh-heat.anishroy.com/api/FaishallRr/svg?darkMode=true&amp;colors=161618,233034,2f4f52,3f8578,5eead4" alt="GitHub contribution heatmap" width="800"/>
+</p>
+
+<p align="center">
+  <img src="./assets/headers/htop.svg" alt="$ htop" width="800"/>
+</p>
 
 <table align="center" width="100%">
   <tr>
@@ -76,20 +88,22 @@
   </tr>
 </table>
 
-<h3 align="center"><code>$ now-playing</code></h3>
-
 <p align="center">
-  <a href="https://open.spotify.com/user/31kvgece4tbb6pxa5f6ag4y42xly">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31kvgece4tbb6pxa5f6ag4y42xly&count=3" alt="Spotify recently played"/>
-  </a>
+  <img src="./assets/headers/yt.svg" alt="$ yt --liked" width="800"/>
 </p>
+
+<!-- BEGIN YOUTUBE-CARDS -->
+<p align="center"><sub>⏳ generating liked videos…</sub></p>
+<!-- END YOUTUBE-CARDS -->
+
+<p align="center"><sub><a href="https://www.youtube.com/@faishalrr">youtube.com/@faishalrr</a> · lately liked</sub></p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
-```
-$ echo "Talk is cheap. Show me the code."
-Talk is cheap. Show me the code.
-        — Linus Torvalds
-```
+<p align="center">
+  <img src="./assets/quote.svg" alt="echo &quot;Talk is cheap. Show me the code.&quot; — Linus Torvalds" width="800"/>
+</p>
 
-<p align="center"><sub>faishal@arch ~ % <b>FaishallRr © 2026</b> · built with caffeine &amp; sudo</sub></p>
+<p align="center">
+  <img src="./assets/footer.svg" alt="faishal@arch ~ % FaishallRr © 2026 — built with caffeine &amp; sudo" width="100%"/>
+</p>

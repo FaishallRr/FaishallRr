@@ -1,0 +1,33 @@
+name: YouTube Liked Cards
+
+on:
+  schedule:
+    - cron: "37 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-liked-cards:
+    runs-on: ubuntu-latest
+    steps:
+      # Playlist "Liked videos" (LL + channel ID) — harus public.
+      # Fallback jika liked private: ganti playlist_id dengan channel_id di bawah.
+      - name: Update liked video cards in README
+        uses: DenverCoder1/github-readme-youtube-cards@main
+        with:
+          playlist_id: "LLPkKep675jouptQOtlE567w"
+          # channel_id: "UCPkKep675jouptQOtlE567w"
+          lang: en
+          max_videos: 3
+          card_width: 250
+          border_radius: 10
+          background_color: "#0b0b0c"
+          title_color: "#e5e5ea"
+          stats_color: "#8e8e93"
+          theme_context_dark: '{ "background_color": "#0b0b0c", "title_color": "#e5e5ea", "stats_color": "#8e8e93" }'
+          theme_context_light: '{ "background_color": "#0b0b0c", "title_color": "#e5e5ea", "stats_color": "#8e8e93" }'
+          max_title_lines: 2
+          readme_path: README.md
+          commit_message: "chore(readme): update liked video cards"
